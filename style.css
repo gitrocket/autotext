@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.input-container {
+  position: absolute;
+  bottom: 50px;
+}
+
+#speed {
+  background-color: brown;
+  border: 0;
+  padding: 10px;
+}
+
+#speed:focus {
+  outline: none;
+}
